@@ -23,25 +23,25 @@ puts "Is number_teachers greater than number_students?", number_teachers > numbe
 
 # YOU DO: print the result of the comparison: is number_teachers less than number_students?
 # this should print: true
-
+puts "is number_teachers less than number_students?",  number_teachers < number_students
 # YOU DO: print the result of the comparison: is number_teachers equal to string_teachers?
 # this should print: false
-
+puts "is number_teachers equal to string_teachers?", number_teachers == string_teachers
 # YOU DO: print the result of the comparison: is number_teachers not equal to number_students?
 # this should print: true
-
+puts "is number_teachers not equal to number_students?", number_teachers != number_students
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 20?
 # this should print: true
-
+puts "is number_students greater than or equal to 20?", number_students >= 20
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 21?
 # this should print: false
-
+puts "is number_students greater than or equal to 21?", number_students >= 21
 # YOU DO: print the result of the comparison: is number_students less than or equal to 20?
 # this should print: true
-
+puts "is number_students less than or equal to 20?", number_students <= 20
 # YOU DO: print the result of the comparison: is number_students less than or equal to 21?
 # this should print: true
-
+puts "is number_students less than or equal to 21?", number_students <= 21
 
 #-------------------
 # PART 2: Articulating what you are doing
@@ -53,21 +53,26 @@ puts "Is number_teachers greater than number_students?", number_teachers > numbe
 # Make sure YOU can explain it that way!
 
 puts 4 < 9
-#YOU DO: Explain.
+# Is the value of 4 less than 9
+# this should print: true
 
 books = 3
 puts 4 < books
-# YOU DO: Explain.
+# is the value of 4 less that the variable books which holds a value of 3
+# this should print: False
+
 
 friends = 6
 siblings = 2
 puts friends > siblings
-# YOU DO: Explain.
+# is the value of the variable "friends" (6) greater than the value of the variable "siblings" (2)
+# this should print: true
 
 attendees = 9
 meals = 8
 puts attendees != meals
-# YOU DO: Explain.
+# is the value of the vaiable "attendees" (9) NOT EQUAL to the value of the variable "meals" (8)
+# this should print: true
 
 
 #-------------------
@@ -90,16 +95,16 @@ age = 1
 
 # YOU DO:
 # Determine if the dog loves to play and loves treats
-
+puts loves_to_play && loves_treats
 
 # Determine if the dog loves to play and loves the dog park
-
+puts loves_to_play && loves_dog_park
 
 # Determine if the dog loves to play or loves the dog park
-
+puts loves_to_play || loves_dog_park
 
 # Determine if the dog loves to play and is a puppy
 # Assume that a dog is a puppy if it is less than 2 years old.
-
+puts loves_to_play && age < 2
 # What did your final line of code evaluate to? Why do you think that is? Explain.
-# ANSWER:
+# ANSWER: true, both sides of operator is true. loves_to_play = true and 1 < 2 is true
